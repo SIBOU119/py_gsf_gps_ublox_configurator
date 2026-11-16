@@ -3,12 +3,12 @@ from PyGSFGPSSerial import *
 
 # User settings
 COM_PORT = "COM3"
-BLUETOOTH_MODULE_NAME = "GSF_GEO_BT_0001"
+BLUETOOTH_MODULE_NAME = "GSFGEO_RTK_0001"
 IS_THIS_A_GSF_GEO_NEW_GENERATION = False
 
 # Using the following for the initial configuration. If you program the new GSF GEO
 #   with IS_THIS_A_GSF_GEO_NEW_GENERATION = True, then the BT won't use RTS/CST. Then set USING_BT_RTS_CTS = False
-USING_BT_RTS_CTS = True
+USING_BT_RTS_CTS = False
 
 ############################################################################################
 # CODE BEGIN BELOW, DO NOT EDIT THE LINES BELOW.
